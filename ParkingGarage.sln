@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D42654C2-40A6-452C-BDB2-A4E809F6842D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingGarage.Library", "src\ParkingGarage.Library\ParkingGarage.Library.csproj", "{3CE1C841-D27F-48B9-B3FE-B60E39A9DD4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingGarageConsole", "src\ParkingGarageConsole\ParkingGarageConsole.csproj", "{EEA2D3DB-6E9F-4B05-9912-ABFAF83EEC1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CE1C841-D27F-48B9-B3FE-B60E39A9DD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE1C841-D27F-48B9-B3FE-B60E39A9DD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE1C841-D27F-48B9-B3FE-B60E39A9DD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE1C841-D27F-48B9-B3FE-B60E39A9DD4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEA2D3DB-6E9F-4B05-9912-ABFAF83EEC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA2D3DB-6E9F-4B05-9912-ABFAF83EEC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA2D3DB-6E9F-4B05-9912-ABFAF83EEC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA2D3DB-6E9F-4B05-9912-ABFAF83EEC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CE1C841-D27F-48B9-B3FE-B60E39A9DD4F} = {D42654C2-40A6-452C-BDB2-A4E809F6842D}
+		{EEA2D3DB-6E9F-4B05-9912-ABFAF83EEC1E} = {D42654C2-40A6-452C-BDB2-A4E809F6842D}
+	EndGlobalSection
+EndGlobal

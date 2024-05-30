@@ -2,10 +2,10 @@
 
 namespace ParkingGarage.Library.Interfaces;
 
-public interface IParkingGarageFactory
+public interface IParkingGarageBuilder
 {
-    IList<EntryTerminal> GetEntryTerminals();
-    IList<ExitTerminal> GetExitTerminals();
+    IEnumerable<EntryTerminal> GetEntryTerminals();
+    IEnumerable<ExitTerminal> GetExitTerminals();
     IParkingAssignmentStrategy GetAssignmentStrategy();
     IPaymentProcessingStrategy GetPaymentProcessingStrategy();
 

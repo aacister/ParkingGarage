@@ -9,8 +9,6 @@ public class Garage
 {
         private static readonly Garage instance = new();
 
-        private Garage() { }
-
         public static Garage GetInstance
         {
                 get
@@ -18,8 +16,8 @@ public class Garage
                         return instance;
                 }
         }
-        public IList<EntryTerminal> EntryTerminals { get; set; }
-        public IList<ExitTerminal> ExitTerminals{ get; set; };
+        public IEnumerable<EntryTerminal> EntryTerminals { get; set; } = new List<EntryTerminal>();
+        public IEnumerable<ExitTerminal> ExitTerminals { get; set; } = new List<ExitTerminal>();
         
         
 

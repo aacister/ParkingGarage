@@ -1,5 +1,5 @@
 using Microsoft.Extensions.DependencyInjection;
-using ParkingGarage.Library.Factories;
+using ParkingGarage.Library.Builder;
 using ParkingGarage.Library.Interfaces;
 using ParkingGarage.Library.Loggers;
 using ParkingGarage.Library.Strategies.ParkingAssignment;
@@ -16,7 +16,7 @@ namespace ParkingGarage.Library
             services.AddTransient<IParkingAssignmentStrategy, ParkingSpotStrategy>();
             services.AddTransient<IPaymentProcessingStrategy, CreditCardPaymentProcessStrategy>();
             services.AddTransient<IPaymentProcessingStrategy, CashPaymentProcessingStrategy>();
-            services.AddSingleton<IParkingGarageFactory, ParkingGarageFactory>();
+            services.AddSingleton<IParkingGarageBuilder, ParkingGarageBuilder>();
         }
     }
 }

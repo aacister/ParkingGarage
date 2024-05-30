@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using ParkingGarageConsole.Configuration;
 using ParkingGarage.Library;
 
 namespace ParkingGarageConsole;

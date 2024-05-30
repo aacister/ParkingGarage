@@ -2,7 +2,7 @@
 using ParkingGarage.Library;
 
 
-namespace ParkingGarageConsole.Configuration;
+namespace ParkingGarageConsole;
 
 public class ParkingGarageConfigOptionsSetup 
 {

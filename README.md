@@ -1,4 +1,4 @@
-Parking Garage structured design app:
+Parking Garage structure design app:
 
 Consists of 2 projects:
 1) ParkingGarage.Library

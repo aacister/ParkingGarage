@@ -4,7 +4,7 @@ Consists of 2 projects:
 1) ParkingGarage.Library
 2) ParkingGarageConsole
 
-Design Pathers:
+Design Patterns:
 1) Builder pattern for building garage and its parts
 2) Strategy patterns utilized for Parking Assignment and Payment
 3) Console utilizes configuration for # of spots and # of terminals
